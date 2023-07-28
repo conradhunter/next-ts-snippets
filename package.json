@@ -1,0 +1,30 @@
+{
+  "name": "next-ts-snippets",
+  "displayName": "next-ts-snippets",
+  "description": "A collection of snippets for use in NextJS 13 + TypeScript",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Conrad Hunter",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "react",
+    "nextjs",
+    "vscode",
+    "appdirectory",
+    "typescript",
+    "vscode-extension"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+    "GET API Route": {
+        "prefix": "getapi",
+        "body": [
+            "import { NextResponse } from 'next/server';",
+            "",
+            "export async function GET(request: Request) {}",
+        ],
+        "description": "Create a GET API route in NextJS 13"
+    },
+    "POST API Route": {
+        "prefix": "postapi",
+        "body": [
+            "import { NextResponse } from 'next/server';",
+            "",
+            "export async function POST(request: Request) {}",
+        ],
+        "description": "Create a POST API route in NextJS 13"
+    },
+    "HEAD API Route": {
+        "prefix": "headapi",
+        "body": [
+            "import { NextResponse } from 'next/server';",
+            "",
+            "export async function HEAD(request: Request) {}",
+        ],
+        "description": "Create a HEAD API route in NextJS 13"
+    },
+    "PUT API Route": {
+        "prefix": "putapi",
+        "body": [
+            "import { NextResponse } from 'next/server';",
+            "",
+            "export async function PUT(request: Request) {}",
+        ],
+        "description": "Create a PUT API route in NextJS 13"
+    },
+    "DELETE API Route": {
+        "prefix": "deleteapi",
+        "body": [
+            "import { NextResponse } from 'next/server';",
+            "",
+            "export async function DELETE(request: Request) {}",
+        ],
+        "description": "Create a DELETE API route in NextJS 13"
+    },
+    "PATCH API Route": {
+        "prefix": "patchapi",
+        "body": [
+            "import { NextResponse } from 'next/server';",
+            "",
+            "export async function PATCH(request: Request) {}",
+        ],
+        "description": "Create a PATCH API route in NextJS 13"
+    },
+    "OPTIONS API Route": {
+        "prefix": "optionsapi",
+        "body": [
+            "import { NextResponse } from 'next/server';",
+            "",
+            "export async function OPTIONS(request: Request) {}",
+        ],
+        "description": "Create a OPTIONS API route in NextJS 13"
+    },
+    // FILES
+    "Next13 loading file": {
+        "prefix": "tsnextload",
+        "body": [
+            "import React from 'react';",
+            "",
+            "export default function Loading() {",
+            "   return (",
+            "       <div>",
+            "           <h1>Loading...</h1>",
+            "       </div>",
+            "   );",
+            "}",
+        ],
+        "description": "Create a NextJS 13 loading file"
+    },
+    "Next13 error file": {
+        "prefix": "tsnexterr",
+        "body": [
+            "'use client'",
+            "",
+            "import React, { useEffect } from 'react';",
+            "",
+            "export default function Error({",
+            "   error,",
+            "   reset,",
+            "}: {",
+            "   error: Error & { digest?: string };",
+            "   reset: () => void;",
+            "}) {",
+            "   useEffect(() => {",
+            "       console.error(error);",
+            "   }, [error]);",
+            "   return (",
+            "       <div>",
+            "           <h1>Something went wrong!</h1>",
+            "           <button",
+            "               onClick={() => reset()}",
+            "           >",
+            "               Try again.",
+            "           </button>",
+            "       </div>",
+            "   );",
+            "}",
+        ],
+        "description": "Create a NextJS 13 error file"
+    },
+    "Next13 page file": {
+        "prefix": "tsnextpage",
+        "body": [
+            "import React from 'react';",
+            "",
+            "export default function ${TM_FILENAME}() {",
+            "   return (",
+            "       <div>",
+            "           <h1>${TM_FILENAME}</h1>",
+            "       </div>",
+            "   );",
+            "}",
+        ],
+        "description": "Create a NextJS 13 page file"
+    },
+}
