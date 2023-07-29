@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": "Conrad Hunter",
+  "publisher": "conrad-hunter",
   "engines": {
     "vscode": "^1.80.0"
   },

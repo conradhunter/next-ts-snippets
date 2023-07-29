@@ -27,39 +27,38 @@ Initial release of next-ts-snippets 🎉 🎉 🎉
 
 ## Snippets
 
-| Snippet           | Output                |
-| ----------------- | --------------------- |
-| File Conventions  |                       |
-| `tsnxpg`          | page file             |
-| `tsnxld`          | loading file          |
-| `tsnxer`          | error file            |
-| `tsnxnf`          | not-found file        |
-| `tsnxrl`          | root layout file      |
-| `tsnxl`           | layout file           |
-| `tsnxdr`          | dynamic route         |
-| ----------------  | ----------------      |
-| Next 13 Component |                       |
-| `tsnxcl`          | client component      |
-| `tsnxsv`          | server component      |
-| ----------------  | ----------------      |
-| API Routes        |                       |
-| `getapi`          | GET route             |
-| `postapi`         | POST route            |
-| `putapi`          | PUT route             |
-| `deleteapi`       | DELETE route          |
-| `patchapi`        | PATCH route           |
-| `optionsapi`      | OPTIONS route         |
-| `headapi`         | HEAD route            |
-| ----------------  | ----------------      |
-| Functions         |                       |
-| `dymd`            | generateMetadata      |
-| `gsp`             | generateStaticParams  |
-| `tsnxgim`         | generateImageMetadata |
-| `tsnxur`          | useRouter             |
-| `tsnxusp`         | useSearchParams       |
-| `tsnxup`          | useParams             |
-| `tsnxupn`         | usePathname           |
-| ----------------  | ----------------      |
+| Snippet           | Output               |
+| ----------------- | -------------------- |
+| File Conventions  |                      |
+| `tsnxpg`          | page file            |
+| `tsnxld`          | loading file         |
+| `tsnxer`          | error file           |
+| `tsnxnf`          | not-found file       |
+| `tsnxrl`          | root layout file     |
+| `tsnxl`           | layout file          |
+| `tsnxdr`          | dynamic route        |
+| ----------------  | ----------------     |
+| Next 13 Component |                      |
+| `tsnxcl`          | client component     |
+| `tsnxsv`          | server component     |
+| ----------------  | ----------------     |
+| API Routes        |                      |
+| `getapi`          | GET route            |
+| `postapi`         | POST route           |
+| `putapi`          | PUT route            |
+| `deleteapi`       | DELETE route         |
+| `patchapi`        | PATCH route          |
+| `optionsapi`      | OPTIONS route        |
+| `headapi`         | HEAD route           |
+| ----------------  | ----------------     |
+| Functions         |                      |
+| `dymd`            | generateMetadata     |
+| `gsp`             | generateStaticParams |
+| ----------------  | ----------------     |
+
+## Suggestions and Issues
+
+If you have any suggestions or issues, feel free to open an issue or a pull request.
 
 ## License
 
