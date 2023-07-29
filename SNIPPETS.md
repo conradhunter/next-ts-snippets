@@ -16,13 +16,17 @@
 - error
 - page
 
-### Functions
+### Hookes & Functions (API reference => Functions)
 
 - generateStaticParams
 - generateMetadata
 - generateImageMetadata
+- useRouter
+- useSearchParams etc.
 
 ### Defaults
 
 - client component
 - server component
+
+snippets.code-snippets

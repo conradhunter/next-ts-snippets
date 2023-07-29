@@ -11,6 +11,10 @@
   "categories": [
     "Snippets"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conradhunter/next-ts-snippets.git"
+  },
   "keywords": [
     "react",
     "nextjs",
@@ -23,6 +27,10 @@
     "snippets": [
       {
         "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
