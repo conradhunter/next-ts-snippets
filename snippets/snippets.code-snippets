@@ -64,7 +64,7 @@
   },
   // FILES
   "Next 13 loading file": {
-    "prefix": "tsnextload",
+    "prefix": "tsnxld",
     "body": [
       "import React from 'react';",
       "",
@@ -79,7 +79,7 @@
     "description": "Create a NextJS 13 loading file"
   },
   "Next 13 error file": {
-    "prefix": "tsnexterr",
+    "prefix": "tsnxer",
     "body": [
       "'use client'",
       "",
@@ -110,7 +110,7 @@
     "description": "Create a NextJS 13 error file"
   },
   "Next 13 page file": {
-    "prefix": "tsnextpage",
+    "prefix": "tsnxpg",
     "body": [
       "import React from 'react';",
       "",
@@ -124,6 +124,56 @@
     ],
     "description": "Create a NextJS 13 page file"
   },
+  "Next 13 not-found file": {
+    "prefix": "tsnxnf",
+    "body": [
+      "import React from 'react';",
+      "import Link from 'next/link';",
+      "",
+      "export default function NotFound() {",
+      "   return (",
+      "       <div>",
+      "           <h2>Not Found</h2>",
+      "           <p>Could not find requested resource</p>",
+      "           <p>",
+      "             View <Link href='/blog'>all posts</Link>",
+      "           </p>",
+      "       </div>",
+      "   );",
+      "}"
+    ],
+    "description": "Create a NextJS 13 not-found file"
+  },
+  "Next 13 Rootlayout": {
+    "prefix": "tsnxrl",
+    "body": [
+      "export default function RootLayout({",
+      "   children,",
+      "}: {",
+      "   children: React.ReactNode;",
+      "}) {",
+      "   return (",
+      "       <html lang='en'>",
+      "           <body>{children}</body>",
+      "       </html>",
+      "   );",
+      "}"
+    ],
+    "description": "Create a NextJS 13 Rootlayout file"
+  },
+  "Next 13 Layout": {
+    "prefix": "tsnxl",
+    "body": [
+      "export default function Layout({",
+      "   children,",
+      "}: {",
+      "   children: React.ReactNode;",
+      "}) {",
+      "   return <div>{children}</div>;",
+      "}"
+    ],
+    "description": "Create a NextJS 13 Layout file"
+  },
   "Next 13 Client Component": {
     "prefix": "tsnxcl",
     "body": [
@@ -133,7 +183,7 @@
       "",
       "interface I${TM_FILENAME_BASE}Props {}",
       "",
-      "export default function ${TM_FILENAME_BASE}(): FC<I${TM_FILENAME_BASE}Props> {",
+      "export default function ${TM_FILENAME_BASE}() {",
       "   const [state, setState] = useState();",
       "   return (",
       "       <div>",
@@ -141,23 +191,25 @@
       "       </div>",
       "   );",
       "}"
-    ]
+    ],
+    "description": "Create a NextJS 13 Client Component file"
   },
   "Next 13 Server Component": {
     "prefix": "tsnxsv",
     "body": [
-      "import React from 'react';",
+      "import React, { FC } from 'react';",
       "",
       "interface I${TM_FILENAME_BASE}Props {}",
       "",
-      "export default function ${TM_FILENAME_BASE}(): FC<I${TM_FILENAME_BASE}Props> {",
+      "export default ${TM_FILENAME_BASE}() {",
       "   return (",
       "       <div>",
       "           <h1>${TM_FILENAME_BASE}</h1>",
       "       </div>",
       "   );",
       "}"
-    ]
+    ],
+    "description": "Create a NextJS 13 Server Component file"
   },
   "Next 13 Dynamic Route": {
     "prefix": "tsnxdr",
@@ -186,8 +238,10 @@
       "       </div>",
       "   );",
       "}"
-    ]
+    ],
+    "description": "Create a NextJS 13 Dynamic Route file"
   },
+  // Functions
   "Generate Static Params": {
     "prefix": "gsp",
     "body": [
@@ -198,6 +252,32 @@
       "   return posts.map((post) => ({",
       "       slug: post.slug,",
       "   }));",
+      "}"
+    ],
+    "description": "Create a NextJS 13 Generate Static Params function"
+  },
+  "Static Metadata": {
+    "prefix": "stmd",
+    "body": [
+      "import { Metadata } from 'next';",
+      "",
+      "export const metadata: Metadata = {",
+      "   title: 'My App',",
+      "   description: 'My app description',",
+      "}"
+    ],
+    "description": "Create a NextJS 13 Static Metadata function"
+  },
+  "Dynamic Metadata": {
+    "prefix": "dymd",
+    "body": [
+      "import { Metadata } from 'next';",
+      "",
+      "export async function generateMetadata({ params }) {",
+      "   return {",
+      "       title: '...',",
+      "       description: '...',",
+      "   };",
       "}"
     ]
   }

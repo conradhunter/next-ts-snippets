@@ -2,7 +2,7 @@
   "name": "next-ts-snippets",
   "displayName": "next-ts-snippets",
   "description": "A collection of snippets for use in NextJS 13 + TypeScript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Conrad Hunter",
   "engines": {
@@ -15,6 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/conradhunter/next-ts-snippets.git"
   },
+  "icon": "images/logo.png",
   "keywords": [
     "react",
     "nextjs",
