@@ -4,7 +4,14 @@
     "body": [
       "import { NextResponse } from 'next/server';",
       "",
-      "export async function GET(request: Request) {}"
+      "export async function GET(request: Request) {",
+      "  try {",
+      "    // Your GET request handling logic here",
+      "    return new NextResponse.JSON({ message: 'GET request success' });",
+      "  } catch (error) {",
+      "    return new NextResponse.Error(500, 'Internal Server Error');",
+      "  }",
+      "}"
     ],
     "description": "Create a GET API route in NextJS 13"
   },
@@ -13,7 +20,14 @@
     "body": [
       "import { NextResponse } from 'next/server';",
       "",
-      "export async function POST(request: Request) {}"
+      "export async function POST(request: Request) {",
+      "  try {",
+      "    // Your POST request handling logic here",
+      "    return new NextResponse.JSON({ message: 'POST request success' });",
+      "  } catch (error) {",
+      "    return new NextResponse.Error(500, 'Internal Server Error');",
+      "  }",
+      "}"
     ],
     "description": "Create a POST API route in NextJS 13"
   },
@@ -22,7 +36,14 @@
     "body": [
       "import { NextResponse } from 'next/server';",
       "",
-      "export async function HEAD(request: Request) {}"
+      "export async function HEAD(request: Request) {",
+      "  try {",
+      "    // Your HEAD request handling logic here",
+      "    return new NextResponse.JSON({ message: 'HEAD request success' });",
+      "  } catch (error) {",
+      "    return new NextResponse.Error(500, 'Internal Server Error');",
+      "  }",
+      "}"
     ],
     "description": "Create a HEAD API route in NextJS 13"
   },
@@ -31,7 +52,14 @@
     "body": [
       "import { NextResponse } from 'next/server';",
       "",
-      "export async function PUT(request: Request) {}"
+      "export async function PUT(request: Request) {",
+      "  try {",
+      "    // Your PUT request handling logic here",
+      "    return new NextResponse.JSON({ message: 'PUT request success' });",
+      "  } catch (error) {",
+      "    return new NextResponse.Error(500, 'Internal Server Error');",
+      "  }",
+      "}"
     ],
     "description": "Create a PUT API route in NextJS 13"
   },
@@ -40,7 +68,14 @@
     "body": [
       "import { NextResponse } from 'next/server';",
       "",
-      "export async function DELETE(request: Request) {}"
+      "export async function DELETE(request: Request) {",
+      "  try {",
+      "    // Your DELETE request handling logic here",
+      "    return new NextResponse.JSON({ message: 'DELETE request success' });",
+      "  } catch (error) {",
+      "    return new NextResponse.Error(500, 'Internal Server Error');",
+      "  }",
+      "}"
     ],
     "description": "Create a DELETE API route in NextJS 13"
   },
@@ -49,7 +84,14 @@
     "body": [
       "import { NextResponse } from 'next/server';",
       "",
-      "export async function PATCH(request: Request) {}"
+      "export async function PATCH(request: Request) {",
+      "  try {",
+      "    // Your PATCH request handling logic here",
+      "    return new NextResponse.JSON({ message: 'PATCH request success' });",
+      "  } catch (error) {",
+      "    return new NextResponse.Error(500, 'Internal Server Error');",
+      "  }",
+      "}"
     ],
     "description": "Create a PATCH API route in NextJS 13"
   },
@@ -58,7 +100,14 @@
     "body": [
       "import { NextResponse } from 'next/server';",
       "",
-      "export async function OPTIONS(request: Request) {}"
+      "export async function OPTIONS(request: Request) {",
+      "  try {",
+      "    // Your OPTIONS request handling logic here",
+      "    return new NextResponse.JSON({ message: 'OPTIONS request success' });",
+      "  } catch (error) {",
+      "    return new NextResponse.Error(500, 'Internal Server Error');",
+      "  }",
+      "}"
     ],
     "description": "Create a OPTIONS API route in NextJS 13"
   },
