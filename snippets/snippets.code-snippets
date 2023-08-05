@@ -250,7 +250,7 @@
       "",
       "interface I${TM_FILENAME_BASE}Props {}",
       "",
-      "export default ${TM_FILENAME_BASE}() {",
+      "export default function ${TM_FILENAME_BASE}() {",
       "   return (",
       "       <div>",
       "           <h1>${TM_FILENAME_BASE}</h1>",
