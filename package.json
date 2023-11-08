@@ -2,7 +2,7 @@
   "name": "next-ts-snippets",
   "displayName": "next-ts-snippets",
   "description": "A collection of snippets for use in NextJS 13 App directory + TypeScript",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "license": "MIT",
   "author": "Conrad Hunter",
   "publisher": "conrad-hunter",
