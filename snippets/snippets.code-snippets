@@ -163,7 +163,7 @@
     "body": [
       "import React from 'react';",
       "",
-      "export default function ${TM_FILENAME_BASE}() {",
+      "export default function Page() {",
       "   return (",
       "       <div>",
       "           <h1>${TM_FILENAME_BASE}</h1>",
@@ -185,7 +185,7 @@
       "           <h2>Not Found</h2>",
       "           <p>Could not find requested resource</p>",
       "           <p>",
-      "             View <Link href='/blog'>all posts</Link>",
+      "             Return <Link href='/'>home</Link>",
       "           </p>",
       "       </div>",
       "   );",
